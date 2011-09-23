@@ -9,11 +9,11 @@ Gem::Specification.new do |s|
   s.version     = EnjuScribd::VERSION
   s.authors     = ["Kosuke Tanabe"]
   s.email       = ["tanabe@mwr.mediacom.keio.ac.jp"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of EnjuScribd."
-  s.description = "TODO: Description of EnjuScribd."
+  s.homepage    = "https://github.com/nabeta/enju_scribd"
+  s.summary     = "enju_scribd plugin"
+  s.description = "upload documents to scribd using Next-L Enju"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc", "init.rb"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.1.rc1"
