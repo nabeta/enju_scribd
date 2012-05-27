@@ -1,3 +1,4 @@
+require "enju_scribd/engine"
 require 'scribd_fu'
 module EnjuScribd
   module ActsAsMethods
