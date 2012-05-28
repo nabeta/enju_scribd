@@ -1,3 +1,4 @@
+require "enju_scribd/engine"
 require 'scribd_fu'
 module EnjuScribd
   module ActsAsMethods
@@ -15,7 +16,7 @@ module EnjuScribd
       attr_accessor :post_to_scribd
 
       def scribdable?
-        ScribdFu::ContentTypes.include?(get_content_type) && ipaper_id.blank? && post_to_scribd
+        ScribdFu::ContentTypes.include?(get_content_type) && ipaper_id.blank? && post_to_scribd == '1'
       end
     end
   end

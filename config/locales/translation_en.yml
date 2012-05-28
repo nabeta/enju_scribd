@@ -1,0 +1,5 @@
+en:
+  activerecord:
+    attributes:
+      manifestation:
+        post_to_scribd: post to Scribd

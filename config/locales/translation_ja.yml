@@ -1,0 +1,5 @@
+ja:
+  activerecord:
+    attributes:
+      manifestation:
+        post_to_scribd: Scribdに送信する
